@@ -20,7 +20,7 @@ from libs.auth_client.auth_client_lib import AuthClient
 from libs.auth_client.auth_client_lib import REDIRECT_PATH
 from libs.auth_client.auth_client_lib import SIGNOUT_REDIRECT_PATH
 from libs.auth_client.auth_client_lib import User
-from model.session import OAuth2PasswordBearerCookie
+from libs.auth_client.model.session import OAuth2PasswordBearerCookie
 
 
 router = APIRouter()
