@@ -6,11 +6,11 @@ authors = ["InnerTaste <sugantric@yahoo.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fastapi = "^0.63.0"
-uvicorn = "^0.13.2"
+fastapi = "0.61.0"
+uvicorn = "^0.12.1"
 Jinja2 = "^2.11.2"
-pymongo = "^3.11.2"
-msal = "^1.8.0"
+pymongo = "^3.11.1"
+msal = "^1.6.0"
 aiofiles = "^0.6.0"
 
 [tool.poetry.dev-dependencies]
