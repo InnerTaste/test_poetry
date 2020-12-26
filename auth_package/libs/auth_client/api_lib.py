@@ -16,11 +16,11 @@ from starlette import status
 from starlette.responses import RedirectResponse
 from starlette.responses import Response
 
-from libs.auth_client.auth_client_lib import AuthClient
-from libs.auth_client.auth_client_lib import REDIRECT_PATH
-from libs.auth_client.auth_client_lib import SIGNOUT_REDIRECT_PATH
-from libs.auth_client.auth_client_lib import User
-from libs.auth_client.model.session import OAuth2PasswordBearerCookie
+from auth_package.libs.auth_client.auth_client_lib import AuthClient
+from auth_package.libs.auth_client.auth_client_lib import REDIRECT_PATH
+from auth_package.libs.auth_client.auth_client_lib import SIGNOUT_REDIRECT_PATH
+from auth_package.libs.auth_client.auth_client_lib import User
+from auth_package.libs.auth_client.model.session import OAuth2PasswordBearerCookie
 
 
 router = APIRouter()
